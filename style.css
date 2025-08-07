@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background: rgb(0, 30, 30);
+}
+.outer{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.one{
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25%;
+    border-color: bisque;
+    border-width: 5px;
+    border-style: solid;
+    padding: 30px;
+    margin-top: 20px;
+}
+#number{
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#bts{
+    padding: 5px;
+    
+    
+}
+button{
+    font-size: 1rem;
+    border-radius: 30%;
+    padding: 10px;
+    margin: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+#str{
+    background: rgba(17, 255, 0, 0.866);
+    cursor: pointer;
+
+}
+#str:hover{
+    background: rgb(13, 94, 7);
+    cursor: pointer;
+
+}
+#stp{
+    background: red;
+    cursor: pointer;
+}
+#stp:hover{
+    background: rgb(119, 15, 15);
+    cursor: pointer;
+}
+#rst{
+    background: rgb(24, 24, 204);
+    cursor: pointer;
+}
+#rst:hover{
+    background: rgb(9, 9, 74);
+    cursor: pointer;
+}
+#lap{
+    color:rgb(255, 255, 255);
+    background:rgb(255, 0, 255);
+    cursor: pointer;
+}
+#lap:hover{
+    background: rgb(117, 3, 117);
+}
+#lapcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
